@@ -8,8 +8,8 @@ Content-Length: nnn
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body xmlns:m="http://www.minhaempresa.com/consultaCliente">
     <m:consultaClienteRequest>
-    <m:cpf>01234567890</m:cpf>
-	</m:consultaClienteRequest>
+    	<m:cpf>01234567890</m:cpf>
+    </m:consultaClienteRequest>
   </soap:Body>
 </soap:Envelope>
 
@@ -21,11 +21,11 @@ Content-Length: nnn
 <?xml version="1.0"?>
 <soap:Envelope
 xmlns: soap="http://schemas.xmlsoap.org/soap/envelope/">
-<soap:Body xmlns:m="http://www.minhaempresa.com/consultaCliente">
+  <soap:Body xmlns:m="http://www.minhaempresa.com/consultaCliente">
 	<m:consultaClienteResponse>
 		<m:nome>Gerard Way</m:nome>
 		<m:endereco>Rua 0</m:endereco>
 		<m:numTelefone>(00)1234-5678</m:numTelefone>
 	</m:consultaClienteResponse>
-</soap:Body>
+  </soap:Body>
 </soap:Envelope>
