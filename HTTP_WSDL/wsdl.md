@@ -1,0 +1,2 @@
+# WSDL (Web Service Description Language)
+É um padrão de mercado para descrever Web Services de forma a eliminar ao máximo a necessidade de comunicação entre as partes envolvidas em uma integração de dados. Ele normalmente é encontrado quando acrescentarmos “?wsdl” ao final da URL onde o Web Service está hospedado.
